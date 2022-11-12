@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar ul li {
+  float: left;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #111;
+}
+
+h1,
+h2,
+h3 {
+  padding: 1em;
+  text-align: center;
+}
+
+.recipe-list,
+p {
+  width: 75%;
+  margin: auto;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
